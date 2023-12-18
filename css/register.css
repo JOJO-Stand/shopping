@@ -1,0 +1,157 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #67A9E1;
+}
+
+.logo_login {
+    padding-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #e4e4e4;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #67A9E1;
+}
+
+.reg_form {
+    width: 600px;
+    /* background-color: #67A9E1; */
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.reg_form ul li input[type="text"] {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #fb7299;
+    margin-left: 5px;
+}
+
+.error::before {
+    font-family: "iconfont" !important;
+    content: "\e839";
+}
+
+.success {
+    color: #67A9E1;
+    margin-left: 5px;
+}
+
+.success::before {
+    font-family: "iconfont" !important;
+    content: "\e652";
+}
+
+.safety {
+    padding-left: 175px;
+}
+
+.safety em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.safety em:nth-child(1) {
+    background-color: #de1111;
+}
+
+.safety em:nth-child(3) {
+    background-color: #40b83f;
+}
+
+.safety em:nth-child(2) {
+    background-color: #f79100;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree {
+    padding-left: 100px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.reg_form ul li input[type="submit"] {
+    width: 200px;
+    height: 34px;
+    background-color: #67A9E1;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px 0 0 120px;
+}
+
+.mod_copyright {
+    height: 150px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.links {
+    height: 30px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.links ul li {
+    float: left;
+}
+
+.links ul li a {
+    display: block;
+    padding: 0 15px;
+    height: 12x;
+    line-height: 12px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.links ul li:first-child a {
+    border-left: 0;
+}
+
+.copyright {
+    line-height: 20px;
+}

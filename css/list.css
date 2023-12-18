@@ -1,0 +1,203 @@
+/* 列表页专有的样式页面 */
+.nav {
+    overflow: hidden;
+}
+
+.sk_list {
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.sk_list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+    color: rgb(61, 61, 61);
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: "iconfont" !important;
+    content: "\e78e";
+}
+
+.sk_con ul li:nth-child(7) a {
+    color: #67A9E1;
+}
+
+.sk_bd {
+    /* height: 800px; */
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.sk_bd ul {
+    float: left;
+    /* width: 957px;
+    height: 599px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+
+.sk_bd ul li {
+    background-color: #fff;
+    width: 228px;
+    height: 337px;
+    padding: 15px 0 0;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #fb7299;
+}
+
+.list_card_img {
+    height: 170px;
+    width: 170px;
+    background-size: 100% 100% !important;
+    margin: 0 auto 12px;
+}
+
+.list_card_title {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list_card_label {
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 17px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list_card_price {
+    margin: 10px 0;
+    height: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.list_card_price_unit {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fb7299;
+    padding-top: 2px;
+}
+
+
+.list_card_price_value {
+    font-size: 18px;
+    line-height: 18px;
+    color: #fb7299;
+    float: left;
+}
+
+.list_card_price del {
+    margin-left: 0.7em;
+}
+
+.price_unit_del {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b0b0b0;
+    padding-top: 2px;
+    text-decoration: line-through;
+}
+
+
+.price_value_del {
+    font-size: 18px;
+    line-height: 18px;
+    color: #b0b0b0;
+    float: left;
+    text-decoration: line-through;
+}
+
+.seckill_progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seckill_progress_inner {
+    width: 88px;
+    height: 8px;
+    background: #b8b8b8;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+
+.seckill_progress_completed {
+    background: #fb7299;
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 8px;
+}
+
+
+.seckill_progress_inventory {
+    color: #fb7299;
+}
+
+.seckill_progress_btn {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fb7299;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}

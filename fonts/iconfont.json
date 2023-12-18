@@ -1,0 +1,86 @@
+{
+  "id": "4317635",
+  "name": "全球购",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "982331",
+      "name": "正确",
+      "font_class": "zhengque1",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "23949547",
+      "name": "正确",
+      "font_class": "zhengque",
+      "unicode": "ec6b",
+      "unicode_decimal": 60523
+    },
+    {
+      "icon_id": "34452976",
+      "name": "error-fill",
+      "font_class": "error-fill",
+      "unicode": "e839",
+      "unicode_decimal": 59449
+    },
+    {
+      "icon_id": "12659685",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "400050",
+      "name": "更多－右",
+      "font_class": "htmal5icon45",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "462188",
+      "name": "今日推荐",
+      "font_class": "jinrituijian",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "6465468",
+      "name": "icon2扩展_推荐pre",
+      "font_class": "iconkuozhan_tuijianpre",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "1328096",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "3858854",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "10232775",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e78e",
+      "unicode_decimal": 59278
+    },
+    {
+      "icon_id": "12323762",
+      "name": "下拉",
+      "font_class": "xiala1",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    }
+  ]
+}

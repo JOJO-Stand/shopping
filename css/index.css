@@ -1,0 +1,468 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: skyblue;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news_hd .more {
+    float: right;
+}
+
+.news_hd .more::after {
+    font-family: "iconfont" !important;
+    content: "\e60b";
+}
+
+.news_bd {
+    padding: 5px 15px 0;
+}
+
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 253px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 62.25px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.lifeservice ul li p {
+    line-height: 12px;
+}
+
+.lifeservice ul li:nth-child(1) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -2120px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -1400px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -1480px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -1120px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -1520px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -2959px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -1440px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -1238px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -2319px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -281px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -3999px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+    background: url(../images/svg-sprite.svg) no-repeat 0px -1720px;
+}
+
+.bargain {
+    overflow: hidden;
+    height: 75px;
+    margin-top: 5px;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: aliceblue;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 210px;
+    background-color: #93b5cf;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.recom_hd .tuijian {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.recom_bd {
+    float: left;
+    height: 163px;
+}
+
+.recom_bd ul {
+    margin-left: 10px;
+}
+
+.recom_bd ul li {
+    float: left;
+    margin-right: 7px;
+
+}
+
+.recom_bd .gengduo {
+    line-height: 163px;
+    font-size: 30px;
+    color: #93b5cf;
+}
+
+/* 每日推荐模块 */
+.daily {
+    /* height: 290px; */
+    /* background-color: aliceblue; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.daily_hd {
+    height: 36px;
+    line-height: 36px;
+    /* text-align: end; */
+}
+
+.daily_hd h4 {
+    float: left;
+    font-size: 16px;
+
+}
+
+.daily_hd p {
+    float: right;
+    line-height: 16px;
+    margin-top: 12px;
+}
+
+.daily_hd p::after {
+    font-family: "iconfont" !important;
+    content: "\e610";
+    color: #666;
+    padding: 0 5px;
+}
+
+/* .daily_bd {
+    height: 220px;
+} */
+
+.daily_bd {
+    height: 240px;
+    border: 1px solid #e4e4e4;
+}
+
+.daily_bd ul {
+    display: flex;
+    justify-content: center;
+}
+
+.daily_bd ul li {
+    position: relative;
+    float: left;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+.recom_card_img {
+    height: 170px;
+    width: 170px;
+    background-size: 100% 100% !important;
+    margin-bottom: 6px;
+}
+
+.recom_card_label {
+    height: 32px;
+    width: 156px;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+.recom_card_price {
+    height: 18px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.recom_card_price_unit {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fb7299;
+    padding-top: 2px;
+}
+
+
+.recom_card_price_value {
+    font-size: 18px;
+    line-height: 18px;
+    color: #fb7299;
+    float: left;
+}
+
+.daily_bd ul li:nth-child(-n+5)::after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    bottom: 5px;
+    width: 1px;
+    height: 52px;
+    background-color: #e4e4e4;
+}
+
+/* 楼层区域模块 */
+/* 家用电器模块 */
+.box_hd {
+    height: 38px;
+    border-bottom: 2px solid #67A9E1;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    color: #67A9E1;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 16px;
+    margin-top: 11px;
+}
+
+.tab_list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.tab_list ul li,
+span {
+    padding: 0 5px;
+}
+
+.tab_list ul span {
+    color: #e4e4e4;
+}
+
+.tab_list ul li:first-child a {
+    color: #67A9E1;
+}
+
+.box_bd {
+    height: 600px;
+    background-color: #f5f5f5;
+}
+
+.cover_page {
+    float: left;
+    width: 228px;
+    height: 599px;
+}
+
+.cover_img:first-child {
+    margin-bottom: 15px;
+}
+
+.cover_img {
+    float: left;
+    width: 228px;
+    height: 292px;
+    background-size: 100% 100% !important;
+    cursor: pointer;
+}
+
+.list_card {
+    float: left;
+    margin-left: 14px;
+}
+
+.tab_content ul {
+    float: left;
+    width: 957px;
+    height: 599px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+
+.tab_content ul li {
+    background-color: #fff;
+    width: 228px;
+    height: 292px;
+    padding: 15px 0 10px;
+    cursor: pointer;
+}
+
+.list_card_img {
+    height: 170px;
+    width: 170px;
+    background-size: 100% 100% !important;
+    margin: 0 auto 12px;
+}
+
+.list_card_title {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list_card_label {
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 17px 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list_card_price {
+    margin: 10px 0;
+    height: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.list_card_price_unit {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fb7299;
+    padding-top: 2px;
+}
+
+
+.list_card_price_value {
+    font-size: 18px;
+    line-height: 18px;
+    color: #fb7299;
+    float: left;
+}
+
+.list_card_price del {
+    margin-left: 0.7em;
+}
+
+.price_unit_del {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b0b0b0;
+    padding-top: 2px;
+    text-decoration: line-through;
+}
+
+
+.price_value_del {
+    font-size: 18px;
+    line-height: 18px;
+    color: #b0b0b0;
+    float: left;
+    text-decoration: line-through;
+}
+
+/* 智能家居模块 */
+.zhineng {
+    margin-top: 20px;
+}
